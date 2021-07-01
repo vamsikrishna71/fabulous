@@ -1,0 +1,118 @@
+        /*                           Custom Classes                                */
+        
+        .slider-content {
+            position: absolute;
+        }
+        
+        .slider-content .sub-title {
+            font-size: 28px;
+            line-height: 30px;
+        }
+        
+        .slider-content .main-title {
+            font-size: 62px;
+        }
+        
+        .slider-content-left {
+            float: left;
+            margin-top: -365px;
+            margin-left: 50px;
+        }
+        
+        .slider-content .desc p {
+            font-size: 15px;
+        }
+        
+        .slider-content-right {
+            float: left;
+            margin-top: -365px;
+            margin-left: 712px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            letter-spacing: 8px;
+            font-weight: 500;
+            padding-left: 115px;
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+        
+        .section-header>h2 {
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: 0;
+            font-weight: 700;
+            font-family: var(--primary-font);
+            text-transform: unset;
+            position: relative;
+            padding-left: 110px;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+        }
+        
+        .section-header>h2:before {
+            position: absolute;
+            content: "";
+            width: 80px;
+            height: 4px;
+            background: var(--brand-secondary);
+            bottom: 0;
+        }
+        
+        .section-header.text-center>h2:before {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        
+        .about-text-block .description p {
+            margin-bottom: 10px;
+            line-height: 24px;
+            letter-spacing: .5px;
+            font-size: 15px;
+            padding-left: 116px;
+            font-weight: 400;
+        }
+        
+        .about-text-block .category_list {
+            margin-bottom: 20px;
+            overflow: hidden;
+            clear: both;
+            padding-left: 120px;
+        }
+        
+        .about-text-block .category_list .list-item {
+            overflow: hidden;
+            clear: both;
+        }
+        
+        .about-text-block .category_list .list-item ul li::before {
+            content: "\2022";
+            color: #e38ea5;
+            font-weight: bold;
+            display: inline-block;
+            width: 1.2em;
+            margin-left: -1em;
+        }
+        
+        .btn-round {
+            border-radius: 40px;
+            padding: 10px;
+        }
+        
+        .services a {
+            text-decoration: none;
+        }
+        
+        .services .service-text {
+            display: block;
+            text-align: center;
+        }
+        
+        .services .service-img-outer {
+            display: block;
+            text-align: center;
+            margin: 0 auto 10px;
+            position: relative;
+        }
